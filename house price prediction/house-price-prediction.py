@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-url="C:/Users/ASUS/Downloads/Housing.csv"
+url="https://raw.githubusercontent.com/priya055/house-price-prediction/main/housing%20datasets/Housing.csv"
 data = pd.read_csv(url)
 data.head()
 
